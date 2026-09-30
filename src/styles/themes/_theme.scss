@@ -1,0 +1,41 @@
+:root {
+  --color-neutral-900: #0a0a0a;
+  --color-neutral-700: #171719;
+  --color-neutral-600: #202022;
+  --color-neutral-500: #2e2e2e;
+  --color-neutral-400: #3d3d3d;
+  --color-neutral-300: #454547;
+  --color-neutral-200: #9d9d9d;
+  --color-neutral-100: #c6c6c6;
+  --color-neutral-50: #ffffff;
+  --color-lime-500: #cef739;
+  --color-lime-800: #283300;
+  --color-green-500: #42eb05;
+  --color-red-500: #ff4141;
+}
+
+@mixin light-vars {
+  --color-neutral-900: #fefefe;
+  --color-neutral-700: #fafafb;
+  --color-neutral-600: #f6f6f7;
+  --color-neutral-500: #eeeeee;
+  --color-neutral-400: #e2e2e2;
+  --color-neutral-300: #d8d8d9;
+  --color-neutral-200: #4b4b4b;
+  --color-neutral-100: #191919;
+  --color-neutral-50: #000000;
+  --color-lime-500: #7fa006;
+  --color-lime-800: #fdfff5;
+  --color-green-500: #227800;
+  --color-red-500: #8e0000;
+}
+
+[data-theme="light"] {
+  @include light-vars;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    @include light-vars;
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "foreign-exchange-checker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write",
+    "typecheck": "vue-tsc -b"
+  },
+  "dependencies": {
+    "@vueuse/core": "^15.0.0",
+    "apexcharts": "^7.5.1",
+    "axios": "^1.20.0",
+    "globals": "^17.12.0",
+    "motion-v": "^2.4.4",
+    "vue": "^3.5.42",
+    "vue-router": "^5.3.1",
+    "vue3-apexcharts": "^1.11.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.13.3",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/tsconfig": "^0.9.1",
+    "eslint": "^10.11.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.11.1",
+    "prettier": "^3.9.9",
+    "sass": "^1.104.1",
+    "sass-loader": "^17.0.1",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.70.1",
+    "vite": "^8.3.0",
+    "vue-tsc": "^3.3.11"
+  }
+}
