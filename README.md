@@ -15,8 +15,6 @@ This is a solution to the [FX Checker challenge on Frontend Mentor](https://www.
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -77,8 +75,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Yahyaball/foreign-exchange-checker
+- Live Site URL: https://foreign-exchange-checker-beta.vercel.app
 
 ## My process
 
